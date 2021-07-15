@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>
+            Hello
+        </title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h1>
+            Hello World!
+        </h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis scelerisque
+            mauris. Curabitur aliquam ligula in erat placerat finibus. Mauris leo neque,
+            malesuada et augue at, consectetur rhoncus libero. Suspendisse vitae dictum dolor.
+            Vestibulum hendrerit iaculis ipsum, ac ornare ligula. Vestibulum efficitur mattis
+            urna vitae ultrices. Nunc condimentum blandit tellus ut mattis. Morbi eget gravida
+            leo. Mauris ornare lorem a mattis ultricies. Nullam convallis tincidunt nunc, eget
+            rhoncus nulla tincidunt sed.
+            Nulla consequat tellus lectus, in porta nulla facilisis eu. Donec bibendum nisi felis,
+            sit amet cursus nisl suscipit ut. Pellentesque bibendum id libero at cursus. Donec
+            ac viverra tellus. Proin sed dolor quis justo convallis auctor sit amet nec orci. Orci
+            varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </p>
+        <form>
+                <fieldset aria-required="true">
+                    <div class="numberOne">
+                        <label for=text>Write something!</label><br/>
+                        <textarea id="text" name="text" placeholder="Write a message here!" required
+                        rows="10" cols="50" aria-required=""></textarea>
+                    </div>
+                    <div class="numberTwo">
+                        <p>What do you want?</p>
+                        <div>
+                            <input value="yes" type="checkbox" id="answer1-0"
+                            name="answer"/>
+                            <label for="answer1-0">A cola</label>
+                        </div>
+                        <div>
+                            <input value="yes" type="checkbox" id="answer1-1"
+                            name="answer"/>
+                            <label for="answer1-1">A dress</label>
+                        </div>
+                        <div>
+                            <input value="yes" type="checkbox" id="answer1-2"
+                            name="question"/>
+                            <label for="answer1-2">An apple</label>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="numberThree">
+                        <p>Are you ready?</p>
+                        <div>
+                            <input value="yes" type="radio" id="answer2-0"
+                            name="answer" required />
+                            <label for="answer2-0">Yes</label>
+                        </div>
+                        <div>
+                            <input value="yes" type="radio" id="answer2-1"
+                            name="answer" required />
+                            <label for="answer2-1">No</label>
+                        </div>
+                        <div>
+                            <input value="yes" type="radio" id="answer2-2"
+                            name="answer" required />
+                            <label for="answer2-2">...</label>
+                        </div>
+                    </div>
+                     <!-- pre write a text as it is written in html-document-->
+                       <pre>Hello 
+                          World!
+                       </pre>      
+                    <div  class="send-button">
+                        <button>Send</button>
+                    </div>
+                </fieldset>
+            </form>
+    </body>
+</html>
