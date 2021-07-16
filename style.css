@@ -10,7 +10,6 @@ body{
 .numberTwo, .numberThree{
     display: inline-flex;
     align-items: center;
-    box-shadow: 15px;
     /* float work only in this case and text-align doesn't work.*/
 }
 .numberTwo p, .numberThree p{
@@ -85,8 +84,20 @@ fieldset{
     background: green;
 }
 @media screen and (max-width:799px){
+    form fieldset div.numberTwo  p, 
+    form fieldset div.numberThree p,
+    form fieldset div.numberOne label{
+        font-size: 30px;
+        display: block;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
     .numberOne #text{
-       width: 50%;
+       width: 90%;
+       margin: 15px;
+       font-size: 30px;
     }
     .numberTwo, .numberThree{
         display: block;
@@ -95,10 +106,5 @@ fieldset{
     .numberTwo div, .numberThree div{
         display: flex;
         align-items: center;
-    }
-}
-@media screen and (min-width:1440px){
-    body{
-        font-size: 50px;
     }
 }
