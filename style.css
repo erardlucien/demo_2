@@ -20,7 +20,18 @@ body{
 .numberTwo div, .numberThree div{
     display: flex;
     align-items: center;
-    margin-left: 15px;
+    margin: 0 0 0 15px;
+    /* margin-top: 0;
+     * margin-right: 0;
+     * margin-bottom: 0;
+     * marign-left: 15px;
+     */
+    /* padding: 0;
+     * padding-top: 0;
+     * padding-right: 0;
+     * padding-bottom: 0;
+     * padding-left: 0;
+     */
 }
 h1{
     color: red;
