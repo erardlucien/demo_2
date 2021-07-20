@@ -13,9 +13,14 @@ body{
     /* float work only in this case and text-align doesn't work.*/
 }
 .numberTwo p, .numberThree p{
+    background: none;
+    border: none;
     padding: 0;
     margin: 0;
     color: red;    
+}
+form fieldset{
+    border: none;
 }
 .numberTwo div, .numberThree div{
     display: flex;
@@ -53,7 +58,7 @@ fieldset{
     text-align: center;
     margin: 0;
 }
-.numberOne label{
+div.numberOne label{
     color:blue;
     margin: 15px;
     display: block;
@@ -67,7 +72,7 @@ fieldset{
 .numberOne #text{
     border: none;
     text-align: left;
-    font-size: 50%;
+    font-size: 20px;
 }
 #text:valid{
    border:none;
