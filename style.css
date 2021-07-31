@@ -4,8 +4,19 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 body{
-    background-color:aqua;
-    font-size: 23px;    
+    background-color:lightblue;
+    font-size: 23px;
+}
+nav {
+    text-align: center;
+    background: lightseagreen;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    background: seagreen;
 }
 .numberTwo, .numberThree{
     display: inline-flex;
@@ -41,20 +52,20 @@ form fieldset{
 h1{
     color: red;
     text-align: center;
-    background: aquamarine;
-    border: 1px solid aquamarine;
+    background: lightblue;
+    border: 1px solid lightblue;
     margin-top: 30px;
 }
 p{
     border-radius: 0;
     display: block;
     text-align: center;
-    background: aquamarine;
-    border: 1px solid aquamarine;
+    background: lightblue;
+    border: 1px solid lightblue;
     margin: 15px;
 }
 fieldset{
-    border:1px solid aquamarine;
+    border:1px solid lightskyblue;
     text-align: center;
     margin: 0;
 }
@@ -122,5 +133,8 @@ div.numberOne label{
     .numberTwo div, .numberThree div{
         display: flex;
         align-items: center;
+    }
+    nav a{
+        display: block;
     }
 }
