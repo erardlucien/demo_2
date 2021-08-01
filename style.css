@@ -114,7 +114,7 @@ div.numberOne label{
         margin-left: 15px;
     }
     nav > a:hover,
-    nav ul:hover,
+    nav .about:hover,
     nav .about .about-containt li:hover
     {
         background: seagreen;
@@ -176,7 +176,7 @@ div.numberOne label{
         list-style: none;
     }
     nav .about li .about-containt{
-        display: none; 
+        display: none;
     }
     nav .about li:hover .about-containt{
         display: block;
