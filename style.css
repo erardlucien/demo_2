@@ -7,17 +7,6 @@ body{
     background-color:lightblue;
     font-size: 23px;
 }
-nav {
-    text-align: center;
-    background: lightseagreen;
-}
-nav a{
-    text-decoration: none;
-    color: black;
-}
-nav a:hover{
-    background: seagreen;
-}
 .numberTwo, .numberThree{
     display: inline-flex;
     align-items: center;
@@ -110,6 +99,40 @@ div.numberOne label{
 .send-button button:focus{
     background: green;
 }
+@media screen and (min-width:800px){
+    nav {
+        text-align: center;
+        background: lightseagreen;
+        display: flex;
+    }
+    nav  a{
+        text-decoration: none;
+        color: black;
+    }
+    nav > a,
+    nav .about{
+        margin-left: 15px;
+    }
+    nav > a:hover,
+    nav ul:hover,
+    nav .about .about-containt li:hover
+    {
+        background: seagreen;
+    }
+    nav .about li{
+        list-style: none;
+    }
+    nav .about li .about-containt{
+        display: none; 
+    }
+    nav .about li:hover .about-containt{
+        display: block;
+        position: absolute;
+        text-align: left;
+        background: lightseagreen;
+    }
+    
+}
 @media screen and (max-width:799px){
     form fieldset div.numberTwo  p, 
     form fieldset div.numberThree p,
@@ -136,5 +159,28 @@ div.numberOne label{
     }
     nav a{
         display: block;
+        text-decoration: none;
+        color: black;
+        text-align: center;
     }
+    nav {
+        background: lightseagreen;
+    }
+    nav > a:hover,
+    nav ul:hover,
+    nav .about .about-containt li:hover
+    {
+        background: seagreen;
+    }
+    nav .about li{
+        list-style: none;
+    }
+    nav .about li .about-containt{
+        display: none; 
+    }
+    nav .about li:hover .about-containt{
+        display: block;
+        text-align: left;
+        background: lightseagreen;
+    }    
 }
