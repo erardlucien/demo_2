@@ -114,10 +114,18 @@ div.numberOne label{
         margin-left: 15px;
     }
     nav > a:hover,
-    nav .about:hover,
+    nav .about:hover
+    {
+        background: seagreen;
+    }
     nav .about .about-containt li:hover
     {
         background: seagreen;
+        padding: 0 15px 0 0;
+    }
+    nav .about .about-containt li
+    {
+        padding: 0 15px 0 0;
     }
     nav .about li{
         list-style: none;
