@@ -121,11 +121,11 @@ div.numberOne label{
     nav .about .about-containt li:hover
     {
         background: seagreen;
-        padding: 0 15px 0 0;
+        padding: 0 19px 0 0;
     }
     nav .about .about-containt li
     {
-        padding: 0 15px 0 0;
+        padding: 0 19px 0 0;
     }
     nav .about li{
         list-style: none;
